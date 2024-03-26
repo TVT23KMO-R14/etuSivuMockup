@@ -1,0 +1,2 @@
+# etuSivuMockup
+Etusivun suunnittelua
