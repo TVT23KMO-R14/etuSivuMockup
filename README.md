@@ -5,7 +5,7 @@ This is a mockup of a front-page for a web development course, aimed at designin
 
 ## **Preview**
 
-    Preview available on [https://htmlpreview.github.io/?https://github.com/TVT23KMO-R14/etuSivuMockup/blob/main/index.html](https://htmlpreview.github.io/?https://github.com/TVT23KMO-R14/etuSivuMockup/blob/main/index.html)
+Preview available on [https://htmlpreview.github.io/?https://github.com/TVT23KMO-R14/etuSivuMockup/blob/main/index.html](https://htmlpreview.github.io/?https://github.com/TVT23KMO-R14/etuSivuMockup/blob/main/index.html)
 
 ## Setup Instructions
 
