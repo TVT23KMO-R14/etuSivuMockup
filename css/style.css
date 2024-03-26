@@ -28,15 +28,22 @@ a:hover {
 }
 
 .imgcarousel {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-    background-color: #ffffff;
-    
+    background-color: #ffffff;    
 }
 
-.carouselplaceholderimg {
+.imgcarousel .overlay {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgcarousel img {
     width: 95%;
     object-fit: cover;
 }
