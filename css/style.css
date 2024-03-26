@@ -12,6 +12,7 @@ html {
 h2 {
     margin: 0;
     padding: 0;
+    font-size: 1.5rem;
 }
 
 a {
@@ -30,17 +31,25 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     height: auto;
+    background-color: #ffffff;
+    
 }
 
 .carouselplaceholderimg {
     width: 95%;
     object-fit: cover;
-    border-radius: 1rem;
 }
 
-.header, .sidebar , .main, .footer, .content, .container {
+.movies {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    /*https://www.cssmatic.com/box-shadow*/
+}
+
+.header, .sidebar , .main, .footer, .content, .container, .movies, .imgcarousel{
     padding: 1rem;
     border-radius: 0.5rem;
     /*https://www.cssmatic.com/box-shadow*/
@@ -105,13 +114,13 @@ a:hover {
     flex: 0 0 4rem;
 }
 
-
-
 .container .content {
     display: flex;
     justify-content: start;
     flex-direction: column;
-    background: #ffffff;
+    background: rgba(12, 42, 211, 0.3);
+    padding: 1rem;
+    gap: 1rem;
     flex: 1;
 }
 
