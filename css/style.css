@@ -26,6 +26,20 @@ a:hover {
     text-decoration: underline;
 }
 
+.imgcarousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.carouselplaceholderimg {
+    width: 95%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
 .header, .sidebar , .main, .footer, .content, .container {
     padding: 1rem;
     border-radius: 0.5rem;
@@ -41,7 +55,7 @@ a:hover {
     width: 100%;
     min-height: 100vh;
     justify-content: center;
-    background-image: url("https://github.com/TVT23KMO-R14/etuSivuMockup/blob/main/img/bluebg4096x4096v2.png?raw=true");
+    background-image: url("https://github.com/TVT23KMO-R14/etuSivuMockup/blob/main/img/bluebg4096x4096v5.jpg?raw=true");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
