@@ -6,7 +6,7 @@ html, body {
 html {
     background: #969696;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 12pt;
 }
 
 h2 {
@@ -83,7 +83,7 @@ a:hover {
     background-color: rgba(108,121,197,.3);
     gap: 1rem;
     padding: 1rem;
-    max-width: 80rem;
+    max-width: 70rem;
 }
 
 .container .header {
@@ -131,7 +131,11 @@ a:hover {
     flex: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+
+    html {
+        font-size: 10pt;
+    }
 
     .container .main {
         flex-direction: column;
@@ -155,11 +159,8 @@ a:hover {
         justify-content: center;
     }
 
-    a {
+    .container a {
         padding: 0 0 0 1rem;
     }
 
-    .container .content {
-        flex: 1 1 auto;
-    }
 }
