@@ -3,15 +3,19 @@
 ## Project Description
 This is a mockup of a front-page for a web development course, aimed at designing and implementing a web application. The main goal is to provide a visually appealing and functional prototype that demonstrates the layout and basic functionalities of a course-related web application. This prototype includes a header, a sidebar with navigation links, a main content area with a placeholder for an image carousel, and a footer.
 
+## **Preview**
+
+    Preview available on [https://htmlpreview.github.io/?https://github.com/TVT23KMO-R14/etuSivuMockup/blob/main/index.html](https://htmlpreview.github.io/?https://github.com/TVT23KMO-R14/etuSivuMockup/blob/main/index.html)
+
 ## Setup Instructions
 
 1. **Clone the repository**
     ```
-    git clone [repository URL]
+    git clone https://github.com/TVT23KMO-R14/etuSivuMockup.git
     ```
 2. **Navigate to the project directory**
     ```
-    cd [project directory]
+    cd etuSivuMockup
     ```
 3. **Open the `index.html` file in a web browser**
 
