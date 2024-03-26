@@ -59,8 +59,18 @@ a:hover {
 .container .header {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
     background: #ffffff;
+    flex: 0 0 4rem;
+}
+
+.container .sidebar {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background: #ffffff;
+    flex: 0 0 10rem;
 }
 
 .container .main {
@@ -75,17 +85,13 @@ a:hover {
 .container .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
     background: #ffffff;
+    flex: 0 0 4rem;
 }
 
-.container .sidebar {
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    background: #ffffff;
-    flex: 0 0 10rem;
-}
+
 
 .container .content {
     display: flex;
