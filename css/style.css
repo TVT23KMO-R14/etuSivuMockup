@@ -37,6 +37,7 @@ a:hover {
     background-color: #ffffff;
 }
 
+/* https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24 */
 .material-symbols-outlined {
     font-variation-settings:
         'FILL' 0,
@@ -44,6 +45,8 @@ a:hover {
         'GRAD' 0,
         'opsz' 24
 }
+
+
 
 .movies {
     display: flex;
@@ -148,6 +151,7 @@ a:hover {
     flex-direction: column;
     background: rgba(12, 42, 211, 0.1);
     flex: 0 0 10rem;
+    overflow: visible;
 }
 
 
@@ -192,6 +196,16 @@ div.content div:last-child, div.sidebar div.sidebarcontent:last-child {
     color: red;
 }
 
+
+ul.navbar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    background-color: black;
+}
+
 @media screen and (max-width: 800px) {
 
     html {
@@ -212,8 +226,8 @@ div.content div:last-child, div.sidebar div.sidebarcontent:last-child {
 
     .container .sidebar {
         flex-direction: row;
-        flex-wrap: wrap;
-        flex: 0 1 auto;
+        flex-wrap: nowrap;
+        flex: 0 0 5rem;
         margin: 0;
         padding: 0, 5rem;
         align-items: center;
@@ -223,5 +237,16 @@ div.content div:last-child, div.sidebar div.sidebarcontent:last-child {
     .container .sidebar a {
         padding: 0 0 0 1rem;
     }
+
+    nav.navbar, ul.navbar-nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.sidebar div.sidebarcontent:last-child {
+        flex-grow: 0;
+    }
+    
+
 
 }
